@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LayoutDroids | Precision IC Layout & Custom Automation</title>
+    <style>
+        :root {
+            --bg-color: #0b0f19;
+            --card-bg: #111827;
+            --text-main: #f3f4f6;
+            --text-muted: #9ca3af;
+            --accent-red: #ef4444;
+            --border-color: #1f2937;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 4rem;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-main);
+            letter-spacing: -0.025em;
+        }
+
+        .logo span {
+            color: var(--accent-red);
+        }
+
+        .hero {
+            text-align: center;
+            padding: 3rem 0;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            letter-spacing: -0.025em;
+        }
+
+        .subheadline {
+            font-size: 1.25rem;
+            color: var(--accent-red);
+            font-weight: 600;
+            margin-bottom: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .intro-text {
+            font-size: 1.125rem;
+            color: var(--text-muted);
+            max-width: 700px;
+            margin: 0 auto 3rem auto;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 4rem;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 2rem;
+        }
+
+        .card h3 {
+            margin-top: 0;
+            font-size: 1.25rem;
+            color: var(--text-main);
+        }
+
+        .card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-bottom: 0;
+        }
+
+        .contact-section {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 3rem;
+            text-align: center;
+        }
+
+        .contact-section h2 {
+            margin-top: 0;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--accent-red);
+            color: white;
+            padding: 0.75rem 2rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 1rem;
+            transition: opacity 0.2s;
+        }
+
+        .btn:hover {
+            opacity: 0.9;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 4rem;
+            color: var(--text-muted);
+            font-size: 0.875rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="logo">Layout<span>Droids</span></div>
+        </header>
+
+        <section class="hero">
+            <h1>Precision IC Layout & Custom Automation</h1>
+            <div class="subheadline">Technical expertise. Driven by scripts.</div>
+            <p class="intro-text">
+                Navigating complex semiconductor design bottlenecks doesn't have to slow down your tape-out. LayoutDroids bridges the gap between meticulous analog/mixed-signal layout execution and powerful custom automation scripts, ensuring your designs are optimized, DRC/LVS clean, and delivered on schedule.
+            </p>
+        </section>
+
+        <section class="grid">
+            <div class="card">
+                <h3>Custom IC Layout</h3>
+                <p>High-performance analog, mixed-signal, and RF layout execution tailored to your specific process node requirements.</p>
+            </div>
+            <div class="card">
+                <h3>Automation & Scripting</h3>
+                <p>Custom workflow scripts that automate tedious routing, verification tasks, and layout generation to drastically reduce turnaround time.</p>
+            </div>
+            <div class="card">
+                <h3>Design Rule Mastery</h3>
+                <p>Rigorous verification, DRC/LVS cleanup, and parasitic optimization to ensure first-time silicon success.</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <h2>Ready to accelerate your tape-out?</h2>
+            <p style="color: var(--text-muted); margin-bottom: 1.5rem;">Get in touch to discuss your project requirements and custom script needs.</p>
+            <a href="mailto:contact@layoutdroids.com" class="btn">Contact Us</a>
+        </section>
+
+        <footer>
+            &copy; 2026 LayoutDroids. All rights reserved.
+        </footer>
+    </div>
+
+</body>
+</html>
